@@ -1,0 +1,65 @@
+# 🎬 Projeto Microfrontends - Sistema de Filmes
+
+Este projeto é uma aplicação de microfrontends baseada em `single-spa`, que utiliza diversos microfrontends para renderizar páginas e componentes de um sistema de filmes. A aplicação está dividida em quatro microfrontends: `single-spa`, `react-single`, `react-multiple` e `react-components`.
+
+## 📂 Estrutura do Projeto
+
+- **single-spa**: O orquestrador dos microfrontends. Responsável por carregar e configurar todos os microfrontends.
+- **react-single**: Um dos microfrontends que contém a página de listagem e detalhes de filmes.
+- **react-multiple**: Outro microfrontend que pode conter diferentes funcionalidades, como múltiplas páginas ou componentes.
+- **react-components**: Microfrontend que funciona como uma biblioteca de componentes reutilizáveis, como botões, inputs e outros elementos visuais.
+
+## 🚀 Requisitos
+
+Antes de começar, certifique-se de ter instalado as seguintes ferramentas:
+
+- **Node.js** (versão 14+)
+- **npm** ou **yarn**
+
+## 💻 Instalação e Execução Local
+
+### 1. Clone os repositórios
+
+```bash
+git clone https://github.com/NewVini/single-spa single-spa
+git clone https://github.com/NewVini/react-single react-single
+git clone https://github.com/NewVini/react-multiple react-multiple
+git clone https://github.com/NewVini/react-components react-components
+
+
+# 2. instale as dependencias
+# Para single-spa:
+cd single-spa
+npm install
+
+# Para react-single:
+cd react-single
+npm install
+
+# Para react-multiple:
+cd react-multiple
+npm install
+
+# Para react-components:
+cd react-components
+npm install
+
+
+# 3. Execute os microfrontends
+
+## single-spa (porta 9000)
+
+```bash
+cd single-spa
+npm start
+
+
+## portas
+
+
+## single = 8500
+## multiple = 8000
+## components = 9500
+## single-spa = 9000
+
+
