@@ -20,13 +20,12 @@ Antes de começar, certifique-se de ter instalado as seguintes ferramentas:
 
 ### 1. Clone os repositórios
 
-```bash
+```
 git clone https://github.com/NewVini/single-spa single-spa
 git clone https://github.com/NewVini/react-single react-single
 git clone https://github.com/NewVini/react-multiples react-multiple
 git clone https://github.com/NewVini/react-components react-components
 ```
-
 # 2. instale as dependencias
 # Para single-spa:
 cd single-spa
