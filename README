@@ -23,7 +23,7 @@ Antes de começar, certifique-se de ter instalado as seguintes ferramentas:
 ```bash
 git clone https://github.com/NewVini/single-spa single-spa
 git clone https://github.com/NewVini/react-single react-single
-git clone https://github.com/NewVini/react-multiple react-multiple
+git clone https://github.com/NewVini/react-multiples react-multiple
 git clone https://github.com/NewVini/react-components react-components
 
 
